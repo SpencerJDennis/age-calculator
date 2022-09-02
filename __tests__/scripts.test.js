@@ -1,8 +1,10 @@
-describe('Age', () => {
-  let userAge;
-});
+import Age from './../src/scripts.js';
 
-test('should determine user age depended on userInput', function() {
-  const user1 = new Age(userInput)
-  epexct(user1.checktype()).toEqual("undefined");
+describe('Age', () => {
+  
+
+test('should determine user age depended on userInput', () => {
+  let user1 = new Age(21)
+  expect(user1.userInput).toEqual(21);
+});
 });
