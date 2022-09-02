@@ -19,7 +19,7 @@ module.exports = {
       verbose: true
     }), 
     new HtmlWebpackPlugin({
-      title: 'Haiku',
+      title: 'age-calculator',
       template: './src/index.html',
       inject: 'body'
     })

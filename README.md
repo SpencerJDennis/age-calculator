@@ -43,4 +43,4 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
-Copyright (c) 2022 Skylan Lew
+Copyright (c) 2022 
