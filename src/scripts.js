@@ -59,6 +59,14 @@ jupiterLifeExpectancy() {
 }
 
 marsLifeExpectancy() {
+  let marsYear = 1.88
+  let toOldMars = 80 / 1.88
+  let lifeForMars = this.userInput / marsYear
 
+  if (lifeForMars > toOldMars) {
+    return lifeForMars - toOldMars
+  } else {
+    return toOldMars - lifeForMars
+  }
 }
 };
