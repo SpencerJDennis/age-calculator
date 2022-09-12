@@ -13,7 +13,9 @@ mercuryAge = function() {
 }
 
 jupiterAge = function() {
-
+  let jupiterYear = 11.86
+  let jupiterAge = 82 / jupiterYear;
+  return jupiterAge
 }
 
 mercuryLifeExpectancy() {

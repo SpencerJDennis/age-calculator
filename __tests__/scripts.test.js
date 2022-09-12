@@ -33,6 +33,6 @@ test('should return jupiterAge as 6.913996627318719', () => {
   let user1 = new Age(82)
   let jupiterYear = 11.86
   let jupiterAge = 82 / jupiterYear;
-  expect(user1.jupiterAge).toEqual(6.913996627318719)
+  expect(user1.jupiterAge()).toEqual(6.913996627318719)
 });
 });
