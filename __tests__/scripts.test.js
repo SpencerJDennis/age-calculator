@@ -52,6 +52,11 @@ test('should return venusAge as 132.25806451612902', () => {
 
 test('should test jupiterlifeExpectancy function if age is greater than average age', () => {
   let user1 = new Age(82)
-  expect(user1.jupiterLife).toEqual(0.168634064080944)
+  expect(user1.jupiterLife).toEqual(0.16863406408094406)
+});
+
+test('should test lifeExpectancy function if age is lower than average age', () => {
+  let user1 = new Age(78)
+  expect(user1.jupiterLife).toEqual(0.16863406408094495)
 });
 });

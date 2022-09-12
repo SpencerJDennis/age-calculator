@@ -46,6 +46,14 @@ mercuryLifeExpectancy() {
 };
 
 jupiterLifeExpectancy() {
+  let jupiterYear = 11.86
+  let toOldJup = 80 / 11.86
+  let lifeForJup = this.userInput / jupiterYear
 
+  if (lifeForJup > toOldJup) {
+    return lifeForJup - toOldJup
+  } else {
+    return toOldJup - lifeForJup
+  }
 }
 };
