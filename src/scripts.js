@@ -72,6 +72,14 @@ marsLifeExpectancy() {
 }
 
 venusLifeExpectancy() {
-  
+  let venusYear = .62
+  let toOldVenus = 80 / .62
+  let lifeForVenus = this.userInput / venusYear
+
+  if (lifeForVenus > toOldVenus) {
+    return lifeForVenus - toOldVenus
+  } else {
+    return toOldVenus - lifeForVenus
+  }
 }
 };
