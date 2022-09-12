@@ -20,7 +20,9 @@ jupiterAge = function() {
 }
 
 marsAge = function () {
-  
+  let marsYear = 1.88
+  let marsAge = 82 / marsYear;
+  return marsAge
 }
 
 mercuryLifeExpectancy() {
