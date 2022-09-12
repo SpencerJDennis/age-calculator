@@ -27,7 +27,9 @@ marsAge = function () {
 }
 
 venusAge = function () {
-  
+  let venusYear = .62
+  let venusAge = 82 / venusYear;
+  return venusAge
 }
 
 mercuryLifeExpectancy() {
