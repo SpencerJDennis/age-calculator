@@ -7,6 +7,7 @@ export default class Age {
     this.venus = this.venusAge()
     this.mercuryLife = this.mercuryLifeExpectancy()
     this.jupiterLife = this.jupiterLifeExpectancy()
+    this.marsLife = this.marsLifeExpectancy()
   }
 
 mercuryAge = function() {
@@ -55,5 +56,9 @@ jupiterLifeExpectancy() {
   } else {
     return toOldJup - lifeForJup
   }
+}
+
+marsLifeExpectancy() {
+
 }
 };

@@ -55,8 +55,13 @@ test('should test jupiterlifeExpectancy function if age is greater than average 
   expect(user1.jupiterLife).toEqual(0.16863406408094406)
 });
 
-test('should test lifeExpectancy function if age is lower than average age', () => {
+test('should test jupiterlifeExpectancy function if age is lower than average age', () => {
   let user1 = new Age(78)
   expect(user1.jupiterLife).toEqual(0.16863406408094495)
+});
+
+test('should test marsLifeExpectancy function if age is greater than average age', () => {
+  let user1 = new Age(82)
+  expect(user1.marsLife).toEqual(1.06382978723404)
 });
 });
