@@ -49,4 +49,9 @@ test('should return venusAge as 132.25806451612902', () => {
   let venusAge = 82 / venusYear;
   expect(user1.venusAge()).toEqual(132.25806451612902)
 });
+
+test('should test jupiterlifeExpectancy function if age is greater than average age', () => {
+  let user1 = new Age(82)
+  expect(user1.jupiterLife).toEqual(0.168634064080944)
+});
 });
