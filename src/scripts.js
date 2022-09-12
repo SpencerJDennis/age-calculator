@@ -1,12 +1,30 @@
 export default class Age {
   constructor(userInput) {
     this.userInput = userInput
+    this.mercury = this.mercuryAge()
+    this.jupiter = this.jupiterAge()
+    this.mercuryLife = this.mercuryLifeExpectancy()
   }
 
 mercuryAge = function() {
-  let user1 = new Age(userInput)
   let mercuryYear = .24
-  let mercuryAge = user1 * mercuryYear;
+  let mercuryAge = this.userinput / mercuryYear;
   return mercuryAge
 }
+
+jupiterAge = function() {
+
+}
+
+mercuryLifeExpectancy() {
+  let mercuryYear = .24
+  let toOldMerc = 80 / .24
+  let lifeForMerc = this.userInput / mercuryYear
+
+  if (lifeForMerc > toOldMerc) {
+    return lifeForMerc - toOldMerc
+  } else {
+    return toOldMerc - lifeForMerc
+  }
+};
 };
