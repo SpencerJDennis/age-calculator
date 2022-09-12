@@ -3,6 +3,7 @@ export default class Age {
     this.userInput = userInput
     this.mercury = this.mercuryAge()
     this.jupiter = this.jupiterAge()
+    this.mars = this.marsAge()
     this.mercuryLife = this.mercuryLifeExpectancy()
   }
 
@@ -16,6 +17,10 @@ jupiterAge = function() {
   let jupiterYear = 11.86
   let jupiterAge = 82 / jupiterYear;
   return jupiterAge
+}
+
+marsAge = function () {
+  
 }
 
 mercuryLifeExpectancy() {

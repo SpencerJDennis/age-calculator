@@ -35,4 +35,11 @@ test('should return jupiterAge as 6.913996627318719', () => {
   let jupiterAge = 82 / jupiterYear;
   expect(user1.jupiterAge()).toEqual(6.913996627318719)
 });
+
+test('should return marsAge as 43.61702127659574', () => {
+  let user1 = new Age(82)
+  let marsYear = 1.88
+  let marsAge = 82 / marsYear;
+  expect(user1.marsAge()).toEqual(43.61702127659574)
+});
 });
